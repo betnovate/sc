@@ -1,0 +1,12 @@
+from gpio import *
+from time import *
+
+count=0
+pinMode(0,INPUT)
+pinMode(0,OUTPUT)
+
+while True:
+  if digitalRead == HIGH:
+		count= count +1
+		print("conting" + str(count))
+		sleep(0.3)
